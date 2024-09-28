@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relayl"
+    android:background="@drawable/wall"
+    android:paddingTop="30dp"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:background="@drawable/wall"
+        >
+
+        <TextView
+            android:id="@+id/centerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/editText1s"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/round_back_dark_blue5_15"
+            android:layout_below="@id/centerTextView"
+            android:hint="Search By Address"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+            android:id="@+id/editText2s"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/editText1s"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_dark_blue5_15"
+            android:hint="Search By Rent"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText3s"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/editText2s"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_dark_blue5_15"
+            android:hint="Search By Number of Rooms"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/srch"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/editText3s"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_primary_15"
+            android:text="Search"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</ScrollView>

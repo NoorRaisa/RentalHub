@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".LoginSelection"
+    android:background="@drawable/wall">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="102dp"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="Choose How You Want To Log In"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="245dp"
+        android:alpha="0.9"
+        android:background="@drawable/round_back_primary_15"
+        android:text="User Login"
+        android:textColor="#FFFFFFFF"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/organization"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="319dp"
+        android:alpha="0.9"
+        android:background="@drawable/round_back_primary_15"
+        android:text="Organizational Login"
+        android:textColor="#FFFFFFFF"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+
+</AbsoluteLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/profile"
+        android:title="EDIT PROFILE"
+        />
+    <item
+        android:id="@+id/myposts"
+        android:title="MY POSTS"
+        />
+    <item
+        android:id="@+id/myrequests"
+        android:title="MY REQUESTS"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="LOG OUT"
+        />
+    <item
+        android:id="@+id/exit"
+        android:title="EXIT"
+        />
+    <item
+        android:id="@+id/aboutus"
+        android:title="ABOUT US"
+        />
+</menu>

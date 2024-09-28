@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    android:paddingTop="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Payment"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="100dp"
+        android:textColor="#000000"
+        android:id="@+id/tv2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Choose How You Want To Pay"
+        android:textSize="30sp"
+        android:layout_below="@id/tv2"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="40dp"
+        android:textColor="#000000"
+        android:id="@+id/tv1"
+        />
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:src="@drawable/bkash"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nagad"
+        android:layout_toRightOf="@id/button1"
+        android:layout_below="@id/tv1"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button2"
+        android:layout_below="@id/tv1"
+        android:src="@drawable/rocket"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

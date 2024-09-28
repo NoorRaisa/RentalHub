@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1056599262692",
+    "project_id": "rentalhub-b95b4",
+    "storage_bucket": "rentalhub-b95b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056599262692:android:e9ff436895a8adb53573f1",
+        "android_client_info": {
+          "package_name": "com.example.rentalhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056599262692-ab70pgg25gkttckj7m8ket4vqec3r91s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTVPEexWE1fgR9a1J3r3uVTg3uk0Bzco0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056599262692-ab70pgg25gkttckj7m8ket4vqec3r91s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

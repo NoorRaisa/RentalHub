@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".HomePage"
+    android:background="@drawable/wall">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="500sp"
+        android:layout_height="260sp"
+        app:lottie_rawRes="@raw/home3"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animationView"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="Welcome to RentalHub"
+        android:textSize="45sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="cursive" />
+
+</RelativeLayout>

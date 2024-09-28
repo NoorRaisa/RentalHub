@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rentalhub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:installLocation="preferExternal"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RentalHub">
+        <activity
+            android:name=".UnderCons"
+            android:exported="false" />
+        <activity
+            android:name=".organizDetails"
+            android:exported="false" />
+        <activity
+            android:name=".HomeDetailsUser"
+            android:exported="false" />
+        <activity
+            android:name=".cngpassorg"
+            android:exported="false" />
+        <activity
+            android:name=".cngpass"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileOrg"
+            android:exported="false" />
+        <activity
+            android:name=".OrgHome"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpOrg"
+            android:exported="false" />
+        <activity
+            android:name=".LoginOrg"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmRent"
+            android:exported="false" />
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".Search_Result"
+            android:exported="false" />
+        <activity
+            android:name=".HomeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MyPosts"
+            android:exported="false" />
+        <activity
+            android:name=".Requests"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity android:name=".UserHome" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".LoginSelection"
+            android:exported="true" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
